@@ -10,6 +10,7 @@ import (
 func CheckConnection() {
 	ctx := context.Background()
 
+	//
 	conn, err := pgx.Connect(pgx.ConnConfig{
 		Host:     "localhost",
 		Port:     5432,
